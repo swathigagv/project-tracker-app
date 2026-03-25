@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+/*TimelineView*/
+.timeline-container {
+  overflow-x:auto;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: rgb(143, 224, 216);
+}
+.header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin:10px;
+}
+.header button {
+  padding: 0.5rem 1rem; 
+  background-color: rgb(68, 114, 160);
+  pointer-events: auto;
+  color:white;
+  border-radius: 5px;
+}
+.fliters {
+  display: grid;
+  align-items: center;
+  gap: 25px;
+  margin:10px;
+  grid-auto-flow: column;
+}
+.filters button{
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+.fliters label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
