@@ -86,6 +86,18 @@ Zustand was chosen for its simplicity and minimal boilerplate. It allows central
 
 ---
 
+📸 Screenshots
+
+<p align="center">
+  <img src="./screenshot/home.png" width="45%" />
+  <img src="./screenshot/homepagewithfilter.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="./screenshot/List.png" width="45%" />
+  <img src="./screenshot/timeline.png" width="45%" />
+</p>
+
 # ✍️ ✅ Explanation
 
 The most challenging—and rewarding—part of this project was creating the drag-and-drop system. By using native events rather than libraries, I had to be resourceful in handling layout shifts. I finally solved this by using a placeholder element to "preserve" the position of the moved task, which helped maintain UI stability.
