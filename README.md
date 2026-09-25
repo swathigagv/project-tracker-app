@@ -107,9 +107,3 @@ I also optimized performance by creating a custom virtual scroller. This only di
 Ultimately, this was my first time using Zustand. Although AI guided me through the setup, I made sure not to use the technology blindly. My goal was not just to finish the project, but also to understand state management mechanisms in a new way.
 
 
-## ⚙️ Setup Instructions
-
-```bash
-npm install
-npm run dev
-
